@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOXWpMB9RbrTDQfjywf9fmP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/DESPI-Cj/58009---DSAA/blob/main/Practical%20Lab%20Exam\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sQDOEmc2VtkI",
+        "outputId": "3d4e40ff-f04a-4e8d-8413-53a7cead83e6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "To exit enter 0\n",
+            "Enter number: 0\n",
+            "0\n"
+          ]
+        }
+      ],
+      "source": [
+        "numbers = []\n",
+        "y=0\n",
+        "z=0\n",
+        "total = 0\n",
+        "print(\"To exit enter 0\")\n",
+        "while y<1:\n",
+        "  n = int(input(\"Enter number: \"))\n",
+        "  numbers.append(n)\n",
+        "  j = n\n",
+        "  while z<1:\n",
+        "    odd = n%2\n",
+        "    if odd != 0:\n",
+        "      total += n\n",
+        "    break\n",
+        "  if j == 0:\n",
+        "    break\n",
+        "\n",
+        "print(total)\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
